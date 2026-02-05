@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="icon" type="image/png" href="./images/favIcon.png" />
+
+    <title>Naser Almurad</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="masking-container">
+        <a href="#" class="logo masked-text">Naser Almurad</a>
+        <!-- <h1 class="masked-text">Masked Animation</h1> -->
+      </div>
+      <div class="menu-toggle" id="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+      <nav class="navigation" id="navigation">
+        <a onclick="scrollToSection('services')" style="cursor: pointer"
+          >Services</a
+        >
+        <a onclick="scrollToSection('projects')" style="cursor: pointer"
+          >Projects</a
+        >
+        <a onclick="scrollToSection('contact')" style="cursor: pointer"
+          >Contact</a
+        >
+      </nav>
+    </header>
+
+    <section class="main">
+      <div style="padding-top: 80px" class="main_section_info">
+        <h2>Hello, I'm Naser</h2>
+        <div class="split-text-container">
+          <span class="text-part left">Full Stac</span>
+          <span class="text-part right">k  Developer</span>
+        </div>
+        <h3>My hobby , solve technical problem</h3>
+        <a href="#projects" class="main-btn">View my work</a>
+        <div class="social-icons">
+          <a href="https://github.com/scarface-naser" title="github">
+            <lottie-player
+              src="./animation/gitHubiCon.json"
+              background="transparent"
+              speed="1"
+              style="width: 60px; height: 60px"
+              loop
+              autoplay
+              
+            ></lottie-player>
+          </a>
+          <a
+            href="https://www.instagram.com/infinity.ai1?igsh=MWdpeTVmN2VicGhqOA%3D%3D&utm_source=qr"
+            title="Instagram"
+          >
+            <lottie-player
+              src="./animation/instagramIcon.json"
+              background="transparent"
+              speed="1"
+              style="width: 60px; height: 60px"
+              loop
+              autoplay
+              
+            ></lottie-player>
+          </a>
+
+          <a href="#" title="LinkedIN">
+            <lottie-player
+              src="./animation/linkedinIcon.json"
+              background="transparent"
+              speed="1"
+              style="width: 60px; height: 60px"
+              loop
+              autoplay
+              
+            ></lottie-player>
+          </a>
+        </div>
+        <br />
+        <div class="cv_container" onclick="downloadCV()">
+          <lottie-player
+            src="./animation/searchingForProfile.json"
+            background="transparent"
+            speed="1"
+            style="width: 200px; height: 200px"
+            loop
+            autoplay
+            
+          ></lottie-player>
+          <h2>Download myCV</h2>
+        </div>
+      </div>
+    </section>
+
+    <section class="cards" id="services">
+      <div class="services_container">
+        <h2 class="title">Services</h2>
+        <lottie-player
+          class="services_icon"
+          src="./animation/listPurple.json"
+          background="transparent"
+          speed="1"
+          style="width: 150px; height: 150px"
+          loop
+          autoplay
+          
+        ></lottie-player>
+      </div>
+      <br />
+      <div class="content" id="services-container">
+        <!-- Services will be generated here by generate_cards.js -->
+      </div>
+    </section>
+
+    <section class="bodyOfProject" id="projects">
+      <h1 class="project_section">Projects</h1>
+      <br /><br />
+      <br />
+      <main class="main-container">
+        <svg class="svg-container">
+          <defs>
+            <filter
+              id="turbulent-displace"
+              colorInterpolationFilters="sRGB"
+              x="-20%"
+              y="-20%"
+              width="140%"
+              height="140%"
+            >
+              <feTurbulence
+                type="turbulence"
+                baseFrequency="0.02"
+                numOctaves="10"
+                result="noise1"
+                seed="1"
+              />
+              <feOffset in="noise1" dx="0" dy="0" result="offsetNoise1">
+                <animate
+                  attributeName="dy"
+                  values="700; 0"
+                  dur="6s"
+                  repeatCount="indefinite"
+                  calcMode="linear"
+                />
+              </feOffset>
+
+              <feTurbulence
+                type="turbulence"
+                baseFrequency="0.02"
+                numOctaves="10"
+                result="noise2"
+                seed="1"
+              />
+              <feOffset in="noise2" dx="0" dy="0" result="offsetNoise2">
+                <animate
+                  attributeName="dy"
+                  values="0; -700"
+                  dur="6s"
+                  repeatCount="indefinite"
+                  calcMode="linear"
+                />
+              </feOffset>
+
+              <feTurbulence
+                type="turbulence"
+                baseFrequency="0.02"
+                numOctaves="10"
+                result="noise1"
+                seed="2"
+              />
+              <feOffset in="noise1" dx="0" dy="0" result="offsetNoise3">
+                <animate
+                  attributeName="dx"
+                  values="490; 0"
+                  dur="6s"
+                  repeatCount="indefinite"
+                  calcMode="linear"
+                />
+              </feOffset>
+
+              <feTurbulence
+                type="turbulence"
+                baseFrequency="0.02"
+                numOctaves="10"
+                result="noise2"
+                seed="2"
+              />
+              <feOffset in="noise2" dx="0" dy="0" result="offsetNoise4">
+                <animate
+                  attributeName="dx"
+                  values="0; -490"
+                  dur="6s"
+                  repeatCount="indefinite"
+                  calcMode="linear"
+                />
+              </feOffset>
+
+              <feComposite
+                in="offsetNoise1"
+                in2="offsetNoise2"
+                result="part1"
+              />
+              <feComposite
+                in="offsetNoise3"
+                in2="offsetNoise4"
+                result="part2"
+              />
+              <feBlend
+                in="part1"
+                in2="part2"
+                mode="color-dodge"
+                result="combinedNoise"
+              />
+
+              <feDisplacementMap
+                in="SourceGraphic"
+                in2="combinedNoise"
+                scale="30"
+                xChannelSelector="R"
+                yChannelSelector="B"
+              />
+            </filter>
+          </defs>
+        </svg>
+        <!-- Cards will be generated here by generate_cards.js -->
+      </main>
+    </section>
+
+    <section class="cards contact" id="contact">
+      <h2 class="title">Let's work together</h2>
+      <div class="content">
+        <div class="card">
+          <div class="icon" style="height: 160px; position: relative">
+            <lottie-player
+              class="services_icon"
+              src="./animation/whatsapp.json"
+              background="transparent"
+              speed="1"
+              style="width: 160px; height: 160px; position: absolute; top: 1px"
+              loop
+              autoplay
+              
+            ></lottie-player>
+          </div>
+          <div class="info">
+            <h3>
+              <a
+                href="https://wa.me/9647808280053"
+                target="_blank"
+                style="text-decoration: none; color: black"
+                >WhatsApp</a
+              >
+            </h3>
+          </div>
+        </div>
+        <div class="card">
+          <div class="icon" style="height: 160px; position: relative">
+            <lottie-player
+              class="services_icon"
+              src="./animation/email.json"
+              background="transparent"
+              speed="1"
+              style="width: 160px; height: 160px; position: absolute; top: 1px"
+              loop
+              autoplay
+              
+            ></lottie-player>
+          </div>
+          <div class="info">
+            <h3>
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=scarface.naser@gmail.com"
+                target="_blank"
+                style="text-decoration: none; color: black"
+              >
+                Email
+              </a>
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p class="footer-title">
+        Copyrights @ <span style="color: #00fffb">Naser Almurad</span>
+      </p>
+      <div class="social-icons">
+        <a href="https://github.com/scarface-naser" title="github">
+          <lottie-player
+            src="./animation/gitHubiCon.json"
+            background="transparent"
+            speed="1"
+            style="width: 60px; height: 60px"
+            loop
+            autoplay
+            
+          ></lottie-player>
+        </a>
+        <a
+          href="https://www.instagram.com/infinity.ai1?igsh=MWdpeTVmN2VicGhqOA%3D%3D&utm_source=qr"
+          title="Instagram"
+          ><lottie-player
+            src="./animation/instagramIcon.json"
+            background="transparent"
+            speed="1"
+            style="width: 60px; height: 60px"
+            loop
+            autoplay
+            
+          ></lottie-player>
+        </a>
+
+        <a href="#" title="LinkedIN">
+          <lottie-player
+            src="./animation/linkedinIcon.json"
+            background="transparent"
+            speed="1"
+            style="width: 60px; height: 60px"
+            loop
+            autoplay
+            
+          ></lottie-player>
+        </a>
+      </div>
+    </footer>
+
+    <script defer src="data.js"></script>
+    <script defer src="generate_cards.js"></script>
+    <script>
+      const toggle = document.getElementById("menu-toggle");
+      const nav = document.getElementById("navigation");
+
+      // Toggle nav visibility
+      toggle.addEventListener("click", (event) => {
+        event.stopPropagation(); // Prevent click from bubbling to document
+        nav.classList.toggle("active");
+      });
+
+      // Close nav when clicking outside of it
+      document.addEventListener("click", (event) => {
+        // Check if click is outside the navigation and toggle button
+        if (!nav.contains(event.target) && !toggle.contains(event.target)) {
+          nav.classList.remove("active");
+        }
+      });
+
+      // Close nav when scrolling
+      window.addEventListener("scroll", () => {
+        nav.classList.remove("active");
+      });
+
+      // Animation on load
+      window.addEventListener("load", () => {
+        document.body.classList.add("loaded");
+      });
+
+      // download the cv
+
+      function downloadCV() {
+        // Replace with the actual path to your CV file
+        const link = document.createElement("a");
+        link.href = "./cv/Naser_cv.pdf"; // your CV file path (can be in same folder)
+        link.download = "Naser Almurad CV.pdf"; // name of the downloaded file
+        link.click();
+      }
+
+      // smooth scroll to sections services, projects, contact
+
+      function scrollToSection(id) {
+        document.getElementById(id).scrollIntoView({ behavior: "smooth" });
+      }
+
+
+    </script>
+    <!--  Lottie Player Script   , defer=> prevents blocking your page before rendering.-->
+    <script
+      defer
+      src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"
+    ></script>
+  </body>
+</html>

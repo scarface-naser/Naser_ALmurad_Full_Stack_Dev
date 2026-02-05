@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="icon" type="image/png" href="./images/favIcon.png" />
+
+    <title>Service Detail</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <style>
+      .features-list {
+        list-style-type: none;
+        padding: 0;
+        margin-top: 1.5rem;
+      }
+      .features-list li {
+        background: rgba(0, 0, 0, 0.3);
+        margin-bottom: 0.5rem;
+        padding: 0.75rem 1rem;
+        border-radius: 8px;
+        border-left: 3px solid #00fffb;
+        color: var(--card);
+      }
+    </style>
+  </head>
+  <body class="project-page">
+    <main class="page">
+      <div class="links_container">
+        <a class="back-link" href="./index.html">← Back to Portfolio</a>
+      </div>
+      <article class="project-card" aria-labelledby="service-title">
+        <header class="project-header">
+          <div class="header-container">
+            <h1 id="service-title" class="project-title">
+              Loading...
+            </h1>
+          </div>
+        </header>
+
+        <section class="project-description">
+          <p id="service-description" style="font-size: 1.1rem; line-height: 1.8;">
+          </p>
+
+          <h3 style="color: #00fffb; margin-top: 2rem;">Key Features</h3>
+          <ul id="service-features" class="features-list">
+            <!-- Features injected here -->
+          </ul>
+        </section>
+      </article>
+    </main>
+    <br />
+
+    <script defer src="data.js"></script>
+    <script defer src="detail-script.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+          if (typeof loadServiceDetail === 'function') loadServiceDetail();
+      });
+    </script>
+  </body>
+</html>
