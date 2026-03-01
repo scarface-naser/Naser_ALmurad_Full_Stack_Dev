@@ -153,16 +153,7 @@ const portfolioData = {
       tags: ["React", "MongoDB", "Express", "Node.js"],
       youtubeId: "dxsdVz52skw",
       sourceLink: "https://github.com/scarface-naser/NotesApp-MERN-Stack"
-    },
-    {
-      id: 9,
-      slug: "ecommerce-nextjs",
-      image: "./thumbnails/project2.PNG",
-      title: "🛒 E-Commerce Web Application",
-      description: "<strong>🛒 E-Commerce Web Application (Next.js, MongoDB, Cloudinary) </strong>\n\nA full-stack online store built with <strong>Next.js</strong>, featuring secure user authentication, dynamic product management, and cloud-based media storage.\nThis project demonstrates modern web development practices with a focus on scalability, performance, and clean UI/UX.\n\n<strong>Key Features </strong>\n\n<strong>🧩Full-Stack Functionality:</strong> Integrated <strong>MongoDB</strong> for data persistence and <strong>Cloudinary</strong> for image management.\n<strong>⚡Next.js Framework:</strong> Server-side rendering and API routes for efficient data handling.\n<strong>🛍️Product Management:</strong> Admin dashboard for managing product listings and user data.\n<strong>🌈Responsive Design:</strong> Fully responsive and optimized for desktop and mobile.\n<strong>☁️Cloud Integration:</strong> Product images are securely stored and served from Cloudinary.\n<strong>🔐Authentication & Authorization:</strong> Users must sign in to view products; admins have full CRUD access (add, update, delete).\n\n <strong>Tech Stack</strong>\n\nFrontend: Next.js \nBackend: Next.js API routes, Node.js\nDatabase: MongoDB / Mongoose\nMedia Storage: Cloudinary\nAuthentication: JWT / NextAuth",
-      tags: ["Next.js", "MongoDB", "Cloudinary"],
-      youtubeId: "N_HC55OZGy0",
-      sourceLink: "https://github.com/scarface-naser/ecommerce"
-    },
+    }
   ]
 };
+
