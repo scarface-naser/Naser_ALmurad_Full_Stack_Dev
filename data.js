@@ -72,7 +72,7 @@ const portfolioData = {
     }
 
   ],
-  projects: [
+projects: [
     {
       id: 1,
       slug: "ai-tool-platform",
@@ -95,7 +95,18 @@ const portfolioData = {
     },
 
     {
-      id: 3,
+      "id": 3,
+      "slug": "myblog-laravel",
+      "image": "./thumbnails/Laravel.jpg",
+      "title": "📝 MyBlog Platform (Laravel)",
+      "description": "<strong>📝 MyBlog – Full Stack Blogging Platform (Laravel, PHP, MySQL, Blade)</strong>\n\nA complete <strong>blogging platform</strong> built with <strong>Laravel</strong> that allows users to create, manage, and explore blog posts. The platform provides a clean interface for publishing articles, organizing content by categories, and interacting with readers.\n\nDesigned as a scalable <strong>content management and blogging system</strong> where writers can share knowledge, tutorials, and ideas while administrators maintain full control over the platform.\n\n<strong>Key Features</strong>\n\n<strong>🧩 Laravel MVC Architecture:</strong> Built using Laravel's MVC structure for clean code organization and maintainability.\n<strong>✍️ Blog Post Management:</strong> Users can create, edit, update, and delete blog posts with a rich content editor.\n<strong>📂 Categories & Tags:</strong> Organize blog posts using categories and tags for better navigation and search.\n<strong>💬 Comments System:</strong> Readers can leave comments and interact with blog content.\n<strong>🔎 Search & Filtering:</strong> Users can search posts by title, category, or keywords.\n<strong>👤 Authentication:</strong> Secure user authentication using Laravel built-in authentication.\n<strong>📊 Admin Dashboard:</strong> Admin panel to manage users, posts, categories, and comments.\n<strong>🎨 Responsive UI:</strong> Clean and modern design using Blade templates and Tailwind CSS.\n<strong>💾 Database Management:</strong> MySQL database stores posts, users, comments, and categories securely.\n\n<strong>Tech Stack</strong>\n\nBackend: Laravel (PHP)\nFrontend: Blade Templates, Tailwind CSS\nDatabase: MySQL\nArchitecture: MVC (Model-View-Controller)\nAuthentication: Laravel Auth\nFunctionality: Post CRUD, Categories & Tags, Comment System, Search, Admin Dashboard\nExtra: Responsive Design, Content Management System (CMS)",
+      "tags": ["Laravel", "PHP", "MySQL", "Blade", "MVC", "Blog Platform", "CMS", "Full Stack"],
+      "youtubeId": "25-4e7xtGcc",
+      "sourceLink": "https://github.com/scarface-naser/MyBlog-Laravel"
+    },
+
+    {
+      id: 4,
       slug: "ecommerce-nextjs",
       image: "./thumbnails/project2.PNG",
       title: "🛒 E-Commerce Web Application",
@@ -105,7 +116,7 @@ const portfolioData = {
       sourceLink: "https://github.com/scarface-naser/ecommerce"
     },
     {
-      id: 4,
+      id: 5,
       slug: "smart-budget-app",
       image: "./thumbnails/project4.PNG",
       title: "💰 SmartBudget – React Tracker",
@@ -115,7 +126,7 @@ const portfolioData = {
       sourceLink: "https://github.com/scarface-naser/SmartBudget"
     },
     {
-      id: 5,
+      id: 6,
       slug: "redux-store",
       image: "./thumbnails/project5.PNG",
       title: "🛍️ Redux E-Commerce ... more",
@@ -125,7 +136,7 @@ const portfolioData = {
       sourceLink: "https://github.com/scarface-naser/onlinestore"
     },
     {
-      id: 6,
+      id: 7,
       slug: "devconnect-platform",
       image: "./thumbnails/project6.PNG",
       title: "🌐Full-Stack Portfolio Sharing Platform",
@@ -135,7 +146,7 @@ const portfolioData = {
       sourceLink: "https://ghost-gov.com/pro/"
     },
     {
-      id: 7,
+      id: 8,
       slug: "customer-management-app",
       image: "./thumbnails/project7.PNG",
       title: "👥 Customer Management App",
@@ -145,7 +156,7 @@ const portfolioData = {
       sourceLink: "https://github.com/scarface-naser/Node.Js-and-BootStrap"
     },
     {
-      id: 8,
+      id: 9,
       slug: "mern-notes-app",
       image: "./thumbnails/project8.PNG",
       title: "🛒 MERN Stack Note Taking App",
@@ -156,4 +167,5 @@ const portfolioData = {
     }
   ]
 };
+
 
