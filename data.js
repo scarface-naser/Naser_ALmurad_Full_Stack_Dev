@@ -116,6 +116,26 @@ const portfolioData = {
     },
     {
       id: 2,
+      slug: "flutter-instagram-clone",
+      image: "./thumbnails/Flutter.webp",
+      title: "📱 Flutter Instagram Clone App",
+      description:
+        "<strong>📱 Instagram-Style Social Media App (Flutter, Dart, Firebase)</strong>\n\nA modern <strong>Instagram-inspired social media mobile application</strong> built using <strong>Flutter</strong>. The app allows users to share photos, interact with posts, follow other users, and experience a smooth cross-platform mobile interface.\n\nDesigned to demonstrate <strong>mobile UI design, real-time data handling, and social media features</strong> using Flutter.\n\n<strong>Key Features</strong>\n\n<strong>📸 Photo Sharing:</strong> Users can upload and share images with captions similar to Instagram.\n<strong>❤️ Post Interactions:</strong> Like and comment on posts to interact with other users.\n<strong>👤 User Profiles:</strong> Personalized user profiles with profile picture, bio, and posts grid.\n<strong>➕ Follow System:</strong> Follow and unfollow users to build a social network.\n<strong>📰 Feed System:</strong> Dynamic home feed showing posts from followed users.\n<strong>💬 Comments System:</strong> Real-time comments and discussions under posts.\n<strong>🔒 Authentication:</strong> Secure login and registration using Firebase Authentication.\n<strong>⚡ Real-Time Database:</strong> Posts, likes, and comments update instantly using Firebase.\n<strong>🎨 Modern UI:</strong> Clean and responsive mobile UI designed with Flutter widgets.\n<strong>📱 Cross-Platform:</strong> Runs smoothly on both Android and iOS from a single Flutter codebase.\n\n<strong>Tech Stack</strong>\n\nFramework: Flutter\nLanguage: Dart\nBackend: Firebase\nAuthentication: Firebase Auth\nDatabase: Cloud Firestore\nStorage: Firebase Storage (for images)\nFunctionality: Post Upload, Likes, Comments, Follow System, User Profiles\nExtra: Responsive Mobile UI, Real-Time Updates, Social Feed System",
+      tags: [
+        "Flutter",
+        "Dart",
+        "Firebase",
+        "Mobile App",
+        "Instagram Clone",
+        "Cloud Firestore",
+        "Firebase Auth",
+        "Social Media App",
+      ],
+      youtubeId: "SMj8jGEwfHA",
+      sourceLink: "https://github.com/scarface-naser/instagram_with_flutter",
+    },
+    {
+      id: 3,
       slug: "e-learning-fullstack",
       image: "./thumbnails/project9.jpg",
       title: "✅ Full Stack E-Learning Platform",
@@ -140,7 +160,7 @@ const portfolioData = {
     },
 
     {
-      id: 3,
+      id: 4,
       slug: "myblog-laravel",
       image: "./thumbnails/Laravel.jpg",
       title: "📝 MyBlog Platform (Laravel)",
@@ -161,7 +181,7 @@ const portfolioData = {
     },
 
     {
-      id: 4,
+      id: 5,
       slug: "ecommerce-nextjs",
       image: "./thumbnails/project2.PNG",
       title: "🛒 E-Commerce Web Application",
@@ -172,7 +192,7 @@ const portfolioData = {
       sourceLink: "https://github.com/scarface-naser/ecommerce",
     },
     {
-      id: 5,
+      id: 6,
       slug: "smart-budget-app",
       image: "./thumbnails/project4.PNG",
       title: "💰 SmartBudget – React Tracker",
@@ -189,7 +209,7 @@ const portfolioData = {
       sourceLink: "https://github.com/scarface-naser/SmartBudget",
     },
     {
-      id: 6,
+      id: 7,
       slug: "redux-store",
       image: "./thumbnails/project5.PNG",
       title: "🛍️ Redux E-Commerce ... more",
@@ -200,7 +220,7 @@ const portfolioData = {
       sourceLink: "https://github.com/scarface-naser/onlinestore",
     },
     {
-      id: 7,
+      id: 8,
       slug: "devconnect-platform",
       image: "./thumbnails/project6.PNG",
       title: "🌐Full-Stack Portfolio Sharing Platform",
@@ -211,7 +231,7 @@ const portfolioData = {
       sourceLink: "https://ghost-gov.com/pro/",
     },
     {
-      id: 8,
+      id: 9,
       slug: "customer-management-app",
       image: "./thumbnails/project7.PNG",
       title: "👥 Customer Management App",
@@ -229,7 +249,7 @@ const portfolioData = {
       sourceLink: "https://github.com/scarface-naser/Node.Js-and-BootStrap",
     },
     {
-      id: 9,
+      id: 10,
       slug: "mern-notes-app",
       image: "./thumbnails/project8.PNG",
       title: "🛒 MERN Stack Note Taking App",
